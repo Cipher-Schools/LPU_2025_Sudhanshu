@@ -18,7 +18,6 @@ int binarySearch2D(int matrix[][100], int rows, int cols, int target) {
             right = mid - 1;
         }
     }
-
     return 0; // Target not found
 }
 int main() {
