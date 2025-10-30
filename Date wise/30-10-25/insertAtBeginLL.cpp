@@ -20,6 +20,19 @@ Node* insertAtBegin(Node* head, int x){
 	return head;
 
 }
+Node* insertAtEnd(Node* head, int x){
+    Node* n = create(x);
+    if(head == NULL){
+        return n;
+    }
+    
+    Node* temp = head;
+    while(temp->next != NULL){
+        temp = temp->next;
+    }
+    temp->next = n;
+    return head;
+}
 
 void print(Node* head){
 	while(head != NULL){
@@ -50,6 +63,10 @@ int main(){
 	cout<<"third insertion: ";
 	head = insertAtBegin(head, 60);
 	print(head);
+
+    cout<<"insertion at end: ";
+    head = insertAtEnd(head, 70);
+    print(head);
 
 	return 0;
 	
