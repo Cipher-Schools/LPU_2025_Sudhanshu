@@ -1,0 +1,39 @@
+28 oct 2025
+1. check if string is a palindrome using recursion
+2. sum of n numbers using recursion
+3. factorial of n numbers using recursion
+4. reverse an array using recursion
+5. fibonacci using recurssion
+6. print 1 to n using recursion
+7. print n to 1 using recursion
+
+29 oct 2025
+pointers - https://docs.google.com/document/d/10Z06xzGCvIqFjl9NvTp4KYrOdNWAKrcC1XC2ziHpbSs/edit?usp=sharing
+
+HOME WORK Questions: (sorting)
+https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/ 
+https://www.geeksforgeeks.org/dsa/find-k-smallest-elements-in-an-array/ 
+https://www.geeksforgeeks.org/problems/sort-the-half-sorted2157/1 
+https://www.geeksforgeeks.org/problems/arithmetic-number2815/1 
+https://www.geeksforgeeks.org/problems/maximum-perimeter-of-triangle-from-array4322/1 
+https://www.geeksforgeeks.org/dsa/sort-elements-by-frequency-using-stl/ 
+https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/ 
+https://leetcode.com/problems/sort-even-and-odd-indices-independently/description/ 
+https://leetcode.com/problems/kth-largest-element-in-an-array/description/?envType=problem-list-v2&envId=sorting 
+https://leetcode.com/problems/h-index/submissions/776264182/?envType=problem-list-v2&envId=sorting
+
+30 oct 2025
+Linked List Homework - 30/10/25
+Create a node using struct.
+1. Create a linked list.
+2. Insert at beginning.
+3. Insert at end.
+4. print a linked list.
+
+31 oct 2025
+Linked List Homework
+1. Create a LL
+2. Delete at end.
+3. Delete at begin.
+4. Delete at given position
+5. Delete by value.
