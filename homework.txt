@@ -37,3 +37,8 @@ Linked List Homework
 3. Delete at begin.
 4. Delete at given position
 5. Delete by value.
+
+
+04 oct 2025
+Practice : https://docs.google.com/spreadsheets/d/1k91_6cKckk1Z126i-4p5rPUXUdl7ht2ZBHH75V5i5Lk/edit?usp=sharing
+
