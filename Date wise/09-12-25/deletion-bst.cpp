@@ -55,10 +55,10 @@ private:
         }
     }
 
-    // Helper function to find the minimum value node in the BST
-    Node* findMin(Node* node) {
-        while (node && node->left != nullptr) {
-            node = node->left;
+    // Helper function to find the maximum value node in the BST
+    Node* findMax(Node* node) {
+        while (node && node->right != nullptr) {
+            node = node->right;
         }
         return node;
     }
@@ -83,12 +83,12 @@ private:
                 delete node;
                 return temp;
             }
-            // Node with two children: Get the inorder successor (smallest in the right subtree)
-            Node* temp = findMin(node->right);
+            // Node with two children: Get the inorder predecessor (largest in the left subtree)
+            Node* temp = findMax(node->left);
             // Copy the inorder successor's content to this node
             node->data = temp->data;
             // Delete the inorder successor
-            node->right = deleteNode(node->right, temp->data);
+            node->left = deleteNode(node->left, temp->data);
         }
         return node;
     }

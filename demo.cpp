@@ -1,34 +1,21 @@
 #include<iostream> 
+#include<vector>
+#include<numeric>
 using namespace std;
-
-// class A{
-// public:
-//     A() { cout << "Constructor A" << endl; }
-//     ~A() { cout << "Destructor A" << endl; }
-// };
-class B{
-public:
-    B() { cout << "Constructor B" << endl; }
-    ~B() { cout << "Destructor B" << endl; }
-};
-class C{
-public:
-    C() { cout << "Constructor C" << endl; }
-    ~C() { cout << "Destructor C" << endl; }
-};
-class D: public C, public B{
-public:
-    D() { cout << "Constructor D" << endl; }
-    ~D() { cout << "Destructor D" << endl; }
-};
-// class E: public D{
-// public:
-//     E() { cout << "Constructor E" << endl; }
-//     ~E() { cout << "Destructor E" << endl; }
-// };
 
 int main()
 {
-    D obj;
+    string s;
+    cin>>s;
+    int i=0, n = s.length();
+    int ans = 0;
+    while(i < n)
+    {
+        int c = 0;
+        char e = s[i];
+        while(i<n && s[i] == e) c++,i++;
+        ans = max(ans,c);
+    }
+    cout << ans << endl;
 return 0;
 }
