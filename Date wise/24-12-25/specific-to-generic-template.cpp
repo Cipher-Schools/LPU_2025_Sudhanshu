@@ -3,6 +3,7 @@
  */
 
 #include <iostream>
+#include <typeinfo>
 using namespace std;
 
 // Base class with specific type
